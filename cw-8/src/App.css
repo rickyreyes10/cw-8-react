@@ -1,0 +1,83 @@
+.App {
+  text-align: center;
+  padding: 20px;
+  background-color: #ada3a3;
+  min-height: 100vh;
+}
+
+.filter-list {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.filter-controls {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+.search-input {
+  padding: 8px 15px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  width: 200px;
+  margin-left: 10px;
+}
+
+.dropdown-toggle {
+  background-color: #4CAF50 !important;
+  border: none !important;
+}
+
+.produce-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.produce-item {
+  padding: 10px;
+  margin: 5px 0;
+  background-color: #f8f9fa;
+  border-radius: 4px;
+  transition: all 0.2s ease;
+}
+
+.produce-item:hover {
+  background-color: #e9ecef;
+  transform: translateX(5px);
+}
+
+.section-title {
+  color: #333;
+  margin-bottom: 30px;
+  font-size: 2em;
+}
+
+button {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+button:active {
+  background-color: #3e8e41;
+  transform: translateY(1px);
+}
